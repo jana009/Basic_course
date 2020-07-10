@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+  <head>
+  	<title>Responsive_webpage</title>
+  	<meta charset="utf-8">
+  	<meta name='viewport' content="width=device-width initial-size=1">
+  	<style>
+  		*{
+  			box-sizing: border-box;
+  		}
+  		h1{
+  			color:red;
+  			text-align: center;
+  		}
+  		.row{
+  			width:100%;
+  		}
+  		p{
+  			background-color: #00ffff;
+  			border:2px solid blue;
+  			width:90%;
+  			height:200%;
+  			color:black;
+  			margin-left:auto;
+  			margin-right: auto;
+
+  		}
+  		@media(min-width:1200px){
+  			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,
+  			.col-lg-11,.col-lg-12{
+  				float:left;
+  				border:1px solid blue;
+  			}
+  			.col-lg-1{
+  				width:8.33%
+  			}
+  			.col-lg-2{
+  				width:16.66%;
+  				}
+  				.col-lg-3{
+  					width:25%;
+  					}  	
+  					.col-lg-6{
+  						width:50%;
+  						}
+  						}
+  		@media (min-width:980px) and (max-width:1199px){
+  			.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,
+  			.col-md-11,.col-md-12{
+  				float:left;
+  				color:#00ff00;
+  			}
+  			.col-md-1{
+  				width:8.33%
+  			}
+  			.col-md-2{
+  				width:16.66%;
+  				}
+  				.col-md-3{
+  					width:25%;
+  					}  	
+  					.col-md-6{
+  						width:50%;
+  						}
+  					}
+
+  		}
+  	</style>
+  </head>
+  <body>
+  	<h1>RESPONSIVE_WEBPAGE</h1>
+  	<div class='row'>
+  		<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 2</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 5</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 9</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 10</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 11</p></div>
+  		<div class="col-lg-3 col-md-6"><p>Item 12</p></div>
+  	</div>
+  </body>
