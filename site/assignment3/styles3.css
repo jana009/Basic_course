@@ -1,0 +1,53 @@
+body{
+	background-color: #000;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+.navbar-custom{
+	background-color: red;
+}
+.navbar-header{
+	margin:0px;
+}
+#navbar-list li{
+
+	text-align: center;
+
+}
+h1{
+	font-size:1.5em;
+}
+button.navbar-toggler {
+	padding:2px;
+	border:2px solid #ff8080;
+}
+ .navbar-toggler-icon{
+	height:1em;
+}
+#navbar-list hr{
+	width:100%;
+	border:1px solid black;
+	padding:0px;
+
+}
+h2{
+	text-align:center;
+	margin-top:.5em;
+	font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.jumbotron{
+	color:#000;
+	margin-right:5vw;
+	margin-left:5vw;
+	margin-top:.5vw;
+	margin-bottom: .5vw;
+	padding:.9em;
+	background-color:#94b8b8;
+	color:#000;
+}
+h3{
+	text-align :center;
+	font-weight:bold;
+
+}
