@@ -3,6 +3,9 @@ body{
 	color:#fff;
 	font-family: 'Oxygen', sans-serif;
 }
+header{
+	width:inherit;
+}
 .navbar-custom{
 	background-color:#f6b319;
 }
