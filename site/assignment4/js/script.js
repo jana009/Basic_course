@@ -1,10 +1,10 @@
-var arrayName=["jumboo","jack","kiran"];
+
+var arrayName=["Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
 for (var name in arrayName){
-	if(arrayName[name].charAt(0).toUpperCase() == 'J'){
-		console.log(`Hello ${arrayName[name].charAt(0).toUpperCase()}${arrayName[name]}`);
-	}
-	else{
-	console.log('Hello '+arrayName[name]);
-    }
+       if(arrayName[name].charAt(0).toUpperCase() == 'J'){
+       	byespeak.bye(arrayName[name]);
+       }
+       else{
+       	hellospeak.bye(arrayName[name]);
+       }
 }
-// console.log('hello');
