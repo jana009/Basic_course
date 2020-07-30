@@ -1,7 +1,7 @@
 (function(window){
-	var hellospeak={};
-	hellospeak.bye=function(name){
+	var hellospeaker={};
+	hellospeaker.bye=function(name){
 		console.log(`Hello ${name}`)
 	}
-window.hellospeak=hellospeak;
+window.hellospeaker=hellospeaker;
 })(window);
