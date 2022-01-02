@@ -1,2 +1,2 @@
 heloo hiii
-gonna does(wrong) some weird changes in my remote repo
+gonna do(right) some weird changes in my remote repo
